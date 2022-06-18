@@ -4,7 +4,11 @@ function Navbar(){
             <h1>The Majey Blog</h1>
             <div className="links">
                 <a href="/">Home</a>
-                <a href="/create">New blog</a>
+                <a href="/create" style={{
+                    color: "white",
+                    backgroundColor: "#f1356d",
+                    borderRadius: "8px"
+                }}>New Blog</a>
             </div>
         </nav>
     );
